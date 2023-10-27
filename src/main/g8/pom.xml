@@ -31,7 +31,7 @@
     <dependency>
       <groupId>org.scalameta</groupId>
       <artifactId>munit_$scala_binary_version$</artifactId>
-      <version>1.0.0-M10</version>
+      <version>$munit_version$</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
