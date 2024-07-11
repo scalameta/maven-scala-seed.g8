@@ -14,8 +14,8 @@
   </licenses>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>8</maven.compiler.source>
+    <maven.compiler.target>8</maven.compiler.target>
     <encoding>UTF-8</encoding>
     <scala.version>$scala_version$</scala.version>
   </properties>
@@ -44,7 +44,7 @@
         <!-- see http://davidb.github.com/scala-maven-plugin -->
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
-        <version>3.3.2</version>
+        <version>4.9.2</version>
         <configuration></configuration>
         <executions>
           <execution>
