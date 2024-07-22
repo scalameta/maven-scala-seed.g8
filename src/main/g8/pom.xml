@@ -21,11 +21,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.scala-lang</groupId>
-      <artifactId>scala-library</artifactId>
-      <version>$scala_version$</version>
-    </dependency>
 
     <!-- Test -->
     <dependency>

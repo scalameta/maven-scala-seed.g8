@@ -13,10 +13,17 @@ cs install giter8
 
 ## Create new project
 
-To create a new project just run:
+To create a new Scala 2.13.x project just run:
 
 ```sh
 g8 scalameta/maven-scala-seed.g8
 ```
 
-or you can use the "New Scala Project" command in [Metals](https://scalameta.org/metals)
+To create a new Scala 3 version project instead run:
+
+```sh
+g8 --scala_version=3.3.3 --scala_binary_version=3 scalameta/maven-scala-seed.g8
+```
+
+You can also use the "New Scala Project" command in
+[Metals](https://scalameta.org/metals)
